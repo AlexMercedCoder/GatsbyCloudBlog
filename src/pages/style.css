@@ -1,0 +1,5 @@
+.links {text-align: center;}
+
+.links a {display: block; padding: 10px; background-color: midnightblue; color: white; transition: background-color .5s, color .5s; margin: 10px auto; font-size: 2em;}
+
+.link a:hover {background-color: pink; color: midnightblue;}

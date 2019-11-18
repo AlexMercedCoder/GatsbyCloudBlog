@@ -3,13 +3,20 @@ import { Link } from "gatsby"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
+import "./style.css"
+
 
 const SecondPage = () => (
   <Layout>
     <SEO title="Page two" />
-    <h1>Hi from the second page</h1>
-    <p>Welcome to page 2</p>
-    <Link to="/">Go back to the homepage</Link>
+    <div className ="links">
+    <a href="https://sharp-ride-fd9f84.netlify.com/">React Front-End</a>
+    <a href="https://inspiring-stonebraker-b067d0.netlify.com/">Angular Front-End</a>
+    <a href="https://upbeat-visvesvaraya-747ee7.netlify.com/">Vue Front-End</a>
+    <a href="https://flamboyant-tesla-df2b2c.netlify.com/">StencilJS Front-End</a>
+    <a href="https://sad-jang-a6f936.netlify.com/">SvelteJS Front-End</a>
+    <Link to="/">Back to Main Page</Link>
+    </div>
   </Layout>
 )
 
